@@ -1,0 +1,22 @@
+body {
+  	padding-bottom: 20px;
+}
+
+.navbar {
+  	margin-bottom: 20px;
+}
+.banner {
+	margin-top: -20px;
+}
+.figure {
+	width: 100%;
+}
+.figure img {
+	width: 100%;
+}
+.search-btn {
+	border-radius: 0 3px 3px 0;
+}
+.search-input {
+	border-radius: 3px 0 0 3px;
+}

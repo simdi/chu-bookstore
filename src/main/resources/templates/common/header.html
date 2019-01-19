@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:fragment="common-header">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../../../../favicon.ico" />
+
+    <title>Chu's Bookstore</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet" />
+</head>
+
+  <body>
+  	<div th:fragment="navbar">
+	      	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		        <a class="navbar-brand" href="#">Navbar</a>
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		          <span class="navbar-toggler-icon"></span>
+		        </button>
+		
+		        <div class="collapse navbar-collapse" id="navbarsExample09">
+		          <ul class="navbar-nav mr-auto">
+		            <li class="nav-item active">
+		              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="#">Link</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link disabled" href="#">Disabled</a>
+		            </li>
+		            <li class="nav-item dropdown">
+		              <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Books</a>
+		              <div class="dropdown-menu" aria-labelledby="dropdown09">
+		                <a class="dropdown-item" href="#">Browse Bookshelf</a>
+		                <a class="dropdown-item" href="#">Store hours &#38; Directions</a>
+		                <a class="dropdown-item" href="#">FAQ</a>
+		              </div>
+		            </li>
+		          </ul>
+		          <form class="form-inline my-2 my-md-0">
+		          	<div class="form-group">
+		          		<input class="form-control search-input" type="text" placeholder="Book title" aria-label="Search">
+		            	<button type="submit" class="btn btn-primary search-btn">Search</button>
+		          	</div>
+		          </form>
+		          <ul class="navbar-nav">
+		            <li class="nav-item dropdown">
+		              <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User</a>
+		              <div class="dropdown-menu" aria-labelledby="dropdown09">
+		                <a class="dropdown-item" href="#">Shopping Cart</a>
+		                <a class="dropdown-item" href="#">Account</a>
+		                <a class="dropdown-item" href="#">Logout</a>
+		              </div>
+		            </li>
+		          </ul>
+		        </div>
+		      </nav>
+  	</div>
+  	<main role="main" class="banner" th:fragment="banner">
+	    <div class="jumbotron">
+	      <div class="col-sm-8 mx-auto">
+	        <h1>CHU'S BOOKSTORE</h1>
+	        <p>This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the width of the viewport, others are confined within a <code>.container</code>. For positioning of navbars, checkout the <a href="../navbar-static/">top</a> and <a href="../navbar-fixed/">fixed top</a> examples.</p>
+	      </div>
+	    </div>
+	  </main>
+  	<div th:fragment="footer">
+  		<!-- Footer -->
+		<footer class="page-footer font-small special-color-dark pt-4">
+		  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+		    <a href="https://mdbootstrap.com/education/bootstrap/"> Chu's Bookstore</a>
+		  </div>
+		</footer>
+		<!-- Footer -->
+	    <!-- Bootstrap core JavaScript
+	    ================================================== -->
+	    <!-- Placed at the end of the document so the pages load faster -->
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="/js/popper.min.js"></script>
+	    <script src="/js/bootstrap.js"></script>
+  	</div>  	
+<body>
+    
